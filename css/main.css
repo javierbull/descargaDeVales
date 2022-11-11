@@ -459,5 +459,37 @@ input[type=number] {
 
 .title {
   padding-top: 3rem;
-
 }
+
+/* SECTION  CARDS */
+.section-wrap-cards {
+  background-color: lavender;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-descarga {
+  border-radius: .5rem;
+  overflow: hidden;
+  width: 14.5rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-img-top {
+  background-color: blue;
+  width: 100%;
+}
+
+.card-body {
+  background-color: pink;
+}
+
+.card-footer {
+  background-color: var(--gray);
+  padding-bottom: 1rem;
+  padding-top: 0;
+}
+
+
+/* END SECTION  CARDS */
