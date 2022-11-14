@@ -488,7 +488,7 @@ input[type=number] {
 }
 
 .card-img-top {
-  background-color: blue;
+  background-color: var(--gray-medium);
   width: 100%;
 }
 
