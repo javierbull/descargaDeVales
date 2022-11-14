@@ -1,34 +1,48 @@
 /* Large devices (laptops, less than 1400px) */
 @media (max-width: 1400px) {
   main {
-    background-color: pink;
+    /* background-color: pink; */
   }
 }
 
 /* Large devices (desktops, tablets landscape, less than 1200px) */
 @media (max-width: 1199.98px) {
   main {
-    background-color: lavender;
+    /* background-color: lavender; */
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   main {
-    background-color: salmon;
+    /* background-color: salmon; */
   }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   main {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 }
 
 
 @media (max-width: 575.98px) {
   main {
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
+  }
+
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .card-descarga {
+    border-radius: .5rem;
+    overflow: hidden;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+    border: none;
   }
 }
