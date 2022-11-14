@@ -512,5 +512,49 @@ input[type=number] {
   font-size: .875rem;
 }
 
-
 /* END SECTION  CARDS */
+
+/* FOOTER */
+
+.main-footer {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.footer-body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-bottom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-footer-list {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-list {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+/* END FOOTER */
