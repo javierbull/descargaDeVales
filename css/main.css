@@ -518,6 +518,14 @@ input[type=number] {
   font-size: .875rem;
 }
 
+.card-disabled {
+  color: var(--gray);
+}
+
+.card-disabled .card-img-top {
+  opacity: .5;
+}
+
 /* END SECTION  CARDS */
 
 /* FOOTER */
