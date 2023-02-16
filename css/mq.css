@@ -71,6 +71,21 @@
     display: block;
   }
   /* END VALES */
+
+  /* VALES CINE */
+  .vale-cp-entrada{
+    width: 500px;
+  }
+
+  .vale-cp-entrada__images img:last-child {
+    display: none;
+  }
+
+  .vale-cp-entrada-top {
+    flex-direction: column;
+  }
+
+  /* END VALES CINE */
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -127,4 +142,11 @@
     padding: .5rem;
   }
   /* END VALES */
+
+  /* VALES CINE */
+  .vale-cp-entrada{
+    width: 100%;
+  }
+
+  /* END VALES CINE */
 }
