@@ -660,7 +660,27 @@ input[type=number] {
 /* END VALES */
 
 /* VALES CINE */
+.vale-cp-entrada {
+  padding: 1rem;
+  background-color: var(--dark);
+  border-radius: .5rem;
+}
 
+.vale-cp-entrada-top {
+  background-color: var(--white);
+}
+
+.vale-cp-entrada-bottom {
+  color: var(--white);
+  padding-top: 1rem;
+  font-size: .875rem;
+}
+
+.vale-cp-entrada-bottom img {
+  height: 1.5rem;
+  display: block;
+  margin-left: auto;
+}
 /* END VALES CINE */
 
 /* FOOTER */
