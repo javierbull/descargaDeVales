@@ -17,6 +17,49 @@
   main {
     /* background-color: salmon; */
   }
+
+  /* VALES */
+  .vale {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+
+  .vale__content {
+    height: auto;
+    width: 336px;
+    flex-direction: column;
+  }
+
+  .vale-content-text {
+    text-align: center;
+  }
+
+  .vale-content-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 .25rem .25rem;
+    padding: 1rem;
+  }
+
+
+  .vale-content-logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-vertical {
+    display: none;
+  }
+
+  .img-horizontal {
+    display: block;
+  }
+  /* END VALES */
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -45,4 +88,32 @@
     margin-bottom: 1.25rem;
     border: none;
   }
+
+  /* VALES */
+
+  .vale__img {
+    /* background-color: tomato; */
+    width: 100%;
+    height: auto;
+  }
+
+  .vale__img img {
+    width: 100%;
+    height: auto%;
+  }
+
+  .vale__content {
+    width: 100%;
+    height: auto;
+  }
+
+  .vale-content__title, .vale-content__descripcion {
+    -webkit-line-clamp: 3;
+  }
+
+  .vale-content-codigo__text {
+    width: 100%;
+    padding: .5rem;
+  }
+  /* END VALES */
 }
