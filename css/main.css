@@ -23,6 +23,9 @@
   --success: #36AE7C;
   --success-dark: #094B28;
   --success-light: #C1F8CF;
+  --cp-main: #004075;
+  --cp-accent: #D6336B;
+  --cp-bg: #FFEC00;
 }
 
 html {
@@ -664,20 +667,85 @@ input[type=number] {
   padding: 1rem;
   background-color: var(--dark);
   border-radius: .5rem;
+  width: 800px;
 }
 
 .vale-cp-entrada-top {
   background-color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  gap:2rem;
+}
+
+.vale-cp-entrada__images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vale-cp-entrada__images img:last-child {
+  width: 4rem;
+}
+
+.vale-cp-entrada__content {
+  /* background-color: pink; */
+  text-align: center;
+  color: var(--cp-main);
+}
+
+.vale-cp-entrada__title {
+  font-size: 2rem;
+  color: var(--cp-main);
+  text-transform: uppercase;
+}
+
+.table-vale-cp {
+  color: var(--cp-main);
+}
+
+.table-vale-cp tr td:first-child {
+  font-weight: 600;
+}
+
+.vale-cp-entrada-label {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.vale-cp-entrada_codigo {
+  background-color: var(--cp-bg);
+  display: inline-block;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  margin-bottom: .5rem;
+}
+
+.vale-cp-entrada__tipo-canje {
+  color: var(--cp-accent);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .vale-cp-entrada-bottom {
   color: var(--white);
   padding-top: 1rem;
-  font-size: .875rem;
+  font-size: .75rem;
+}
+
+.vale-cp-entrada__label {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .vale-cp-entrada-bottom img {
-  height: 1.5rem;
+  height: 1.2rem;
   display: block;
   margin-left: auto;
 }
