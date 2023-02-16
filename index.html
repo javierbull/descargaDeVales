@@ -29,16 +29,16 @@
   </header>
 
   <main>
-    <div class="container">
+    <div class="container" id="section-cards">
       <div class="row">
 
         <div class="col-12 marginBottom-2">
           <div class="title">
             <div class="boleta">
-              BB12-00000161
+              Boleta: BB12-00000161
             </div>
             <h1>
-              Mis vales
+              Mi compra
             </h1>
           </div>
         </div>
@@ -54,8 +54,8 @@
                 <p class="card-text">Válido hasta el 20/02/2023</p>
               </div>
               <div class="card-footer">
-                <button type="button" name="button" class="btn button-block button-primary">
-                  Descargar Vales
+                <button type="button" name="button" class="btn button-block button-primary" id="showValesCineplanet">
+                  Ver Mis Vales
                 </button>
               </div>
             </div>
@@ -69,8 +69,8 @@
                 <p class="card-text">Válido hasta el 20/02/2023</p>
               </div>
               <div class="card-footer">
-                <button type="button" name="button" class="btn button-block button-primary">
-                  Descargar Vales
+                <button type="button" name="button" class="btn button-block button-primary" id="showValesDonofrio">
+                  Ver Mis Vales
                 </button>
               </div>
             </div>
@@ -94,6 +94,62 @@
         </div>
 
       </div>
+
+    <div class="container" id="section-vales">
+      <div class="col-12 marginBottom-2">
+        <div class="title">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item showCards"><a href="#">Volver</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Mis Vales</li>
+            </ol>
+          </nav>
+          <h1>
+            Mis vales Cineplanet
+          </h1>
+        </div>
+      </div>
+
+        <div class="wrap-vales marginBottom-2">
+          <div class="vale">
+            <div class="vale__img">
+              <img src="img/products/entradaEstandar.png" alt="Entrada Estandar Cineplanet">
+            </div>
+            <div class="vale__content">
+              <div class="vale-content-text">
+                <h2 class="vale-content__title">
+                  Entrada Full Online
+                  Lorem ipsum dolor sit amet.
+                </h2>
+                <p class="vale-content__descripcion">
+                  Válida para todas las salas de la cadena
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, ad.
+                </p>
+                <div class="vale-content__codigo">
+                  <p class="vale-content-codigo__label">
+                    Presenta este código:
+                  </p>
+                  <div class="vale-content-codigo__text">
+                    CPe4zgfm77
+                  </div>
+                </div>
+
+                <div class="vale-content__vigencia">
+                  <p class="vale-content-vigencia__label">
+                    Vigencia:
+                  </p>
+                  <p class="vale-content-vigencia__fecha">
+                    Del 01 de febrero del 2023 al 01 de diciembre del 2023
+                  </p>
+                </div>
+              </div>
+              <div class="vale-contnet-logo">
+                <img src="img/logos/logoBeeBeneficiosVertical.svg" alt="Logo bee beneficios">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
   </main>
 
   <footer class="main-footer">
