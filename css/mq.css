@@ -27,6 +27,17 @@
     overflow: hidden;
   }
 
+  .vale__img {
+    background-color: pink;
+    height: auto;
+    width: 100%;
+  }
+
+  .vale__img img {
+    width: 100%;
+    height: auto;
+  }
+
   .vale__content {
     height: auto;
     width: 336px;
