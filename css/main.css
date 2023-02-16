@@ -532,7 +532,7 @@ input[type=number] {
 /* END SECTION  CARDS */
 
 /* VALES */
-#section-vales, .img-horizontal {
+.section-vales, .img-horizontal {
   display: none;
 }
 
@@ -658,6 +658,10 @@ input[type=number] {
   width: 1.8rem;
 }
 /* END VALES */
+
+/* VALES CINE */
+
+/* END VALES CINE */
 
 /* FOOTER */
 
