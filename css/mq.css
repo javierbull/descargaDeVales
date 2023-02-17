@@ -72,8 +72,8 @@
   }
   /* END VALES */
 
-  /* VALES CINE */
-  .vale-cp-entrada{
+  /* VALES ENTRADA CINE */
+  .vale-cp-entrada, .vale-cp-combo {
     width: 500px;
   }
 
@@ -81,11 +81,15 @@
     display: none;
   }
 
-  .vale-cp-entrada-top {
+  .vale-cp-entrada-top, .vale-cp-combo-header {
     flex-direction: column;
   }
 
-  /* END VALES CINE */
+  /* END VALE ENTRADA CINE */
+
+  /* VALE COMBO CINE */
+
+  /* END VALE COMBO CINE */
 }
 
 /* Small devices (landscape phones, less than 768px) */
