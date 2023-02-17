@@ -4,11 +4,11 @@ $(document).ready(function(){
 
   $("#showValesCineplanet").click(function() {
     $("#section-cards").hide();
-    $("#section-vales-cineplanet").hide();
-    $("#section-vales-coney").show();
+    $("#section-vales-cineplanet").show();
+    $("#section-vales-coney").hide();
   });
 
-  $("#showValesDonofrio").click(function() {
+  $("#showValesConey").click(function() {
     $("#section-cards").hide();
     $("#section-vales-cineplanet").hide();
     $("#section-vales-coney").show();
