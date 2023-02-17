@@ -662,7 +662,7 @@ input[type=number] {
 }
 /* END VALES */
 
-/* VALES CINE */
+/* VALES CINE ENTRADA*/
 .vale-cp-entrada {
   padding: 1rem;
   background-color: var(--dark);
@@ -677,6 +677,7 @@ input[type=number] {
   align-items: center;
   padding: 1rem;
   gap:2rem;
+  border-radius: .25rem;
 }
 
 .vale-cp-entrada__images {
@@ -685,6 +686,11 @@ input[type=number] {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+.vale-cp-entrada__images img:first-child {
+  min-width: 8rem;
+  max-width: 8rem;
 }
 
 .vale-cp-entrada__images img:last-child {
@@ -697,7 +703,7 @@ input[type=number] {
   color: var(--cp-main);
 }
 
-.vale-cp-entrada__title {
+.vale-cp-entrada__title, .vale-cp-combo__title {
   font-size: 2rem;
   color: var(--cp-main);
   text-transform: uppercase;
@@ -714,6 +720,7 @@ input[type=number] {
 .vale-cp-entrada-label {
   text-transform: uppercase;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 .vale-cp-entrada_codigo {
@@ -726,7 +733,7 @@ input[type=number] {
   margin-bottom: .5rem;
 }
 
-.vale-cp-entrada__tipo-canje {
+.vale-cp-entrada__tipo-canje, .vale-cp-combo__tipo-canje {
   color: var(--cp-accent);
   font-size: 1.5rem;
   font-weight: 600;
@@ -749,7 +756,45 @@ input[type=number] {
   display: block;
   margin-left: auto;
 }
-/* END VALES CINE */
+/* END VALES CINE ENTRADA */
+
+/* VALE CINE COMBO */
+.vale-cp-combo {
+  padding: 1rem;
+  background: linear-gradient(to right, #632E6D, #043D75);
+  border-radius: .5rem;
+  width: 800px;
+}
+
+.vale-cp-combo-top {
+  background-color: var(--white);
+  border-radius: .25rem;
+  padding: 1rem;
+  color: var(--cp-main);
+}
+
+.vale-cp-combo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vale-cp-combo-header img {
+  display: block;
+  min-width: 8rem;
+  max-width: 8rem;
+}
+
+.vale-cp-combo__content {
+  text-align: center;
+}
+
+.vale-cp-combo__tipo-canje {
+  margin-bottom: 1rem;
+}
+
+/* END VALE CINE COMBO */
 
 /* FOOTER */
 
