@@ -148,8 +148,14 @@
   /* END VALES */
 
   /* VALES CINE */
-  .vale-cp-entrada{
+  .vale-cp-entrada, .vale-cp-combo {
     width: 100%;
+  }
+
+  .vale-cp-entrada__title, .vale-cp-combo__title {
+    font-size: 1.5rem;
+    color: var(--cp-main);
+    text-transform: uppercase;
   }
 
   /* END VALES CINE */
