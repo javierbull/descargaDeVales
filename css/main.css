@@ -780,7 +780,7 @@ input[type=number] {
   gap: 2rem;
 }
 
-.vale-cp-combo-header img {
+.logo-vale-cp {
   display: block;
   min-width: 8rem;
   max-width: 8rem;
@@ -793,6 +793,23 @@ input[type=number] {
 .vale-cp-combo__tipo-canje {
   margin-bottom: 1rem;
 }
+
+.content-barras {
+  /* background-color: #36AE7C; */
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cp-combo__barras {
+  /* background-color: #632E6D; */
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /* END VALE CINE COMBO */
 
